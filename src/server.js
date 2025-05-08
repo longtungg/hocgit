@@ -25,7 +25,12 @@ app.use(bodyParser.json({ extend : true }));
 app.use(bodyParser.urlencoded({ extended: true, limit : "50mb" }));
 
 
-app.use(cors());
+app.use(cors({
+    origin: '*',
+    methods: ['GET', 'POST', 'PUT', 'DELETE'],
+    allowedHeaders: ['Content-Type', 'Authorization'],
+    credentials: true,
+  }));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 app.use(apiRoute, UserRouter);
