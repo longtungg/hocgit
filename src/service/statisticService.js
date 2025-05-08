@@ -32,3 +32,4 @@ class StatisticService {
 }
 
 module.exports = StatisticService;
+

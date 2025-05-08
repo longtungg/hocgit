@@ -6,7 +6,7 @@ const options = {
     info: {
       title: 'Library API',
       version: '1.0.0',
-      description: 'Simple library management API',
+      description: 'API',
     },
     servers: [
       { url: 'http://localhost:3000/libary' },

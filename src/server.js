@@ -33,6 +33,6 @@ app.use(apiRoute, BookRouter);
 app.use(apiRoute, BorrowRouter);
 app.use(apiRoute, StatisticRouter);
 app.use(apiRoute, CategoryRouter);
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log(`Server đang khởi chạy tại port ${port}`);
 });
