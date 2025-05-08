@@ -28,7 +28,6 @@ const router = express.Router();
  *       404:
  *         description: Không tìm thấy sách với ID đã cho
  */
-
 router.post("/borrow/:bookId", authenToken, borrowBookValidator, validateResult, BorrowController.borrowingBook);
 /**
  * @swagger
@@ -53,7 +52,6 @@ router.post("/borrow/:bookId", authenToken, borrowBookValidator, validateResult,
  *       404:
  *         description: Không tìm thấy sách với ID đã cho
  */
-
 router.put("/borrow/:bookId", authenToken,returnBookValidator, validateResult, BorrowController.returnBook);
 /**
  * @swagger

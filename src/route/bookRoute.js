@@ -56,7 +56,6 @@ const BookController = require('../controller/bookController');
  *       404:
  *         description: Không tìm thấy sách
  */
-
 router.post("/books", authenToken, createBookValidator, validateResult, BookController.createBook);
 
 /**
@@ -198,7 +197,6 @@ router.put("/books/:id", authenToken, updateBookValidator, validateResult, BookC
  *       400:
  *         description: Lỗi Request
  */
-
 router.get("/books", authenToken, BookController.getBook);
 
 
