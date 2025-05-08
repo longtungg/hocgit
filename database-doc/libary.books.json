@@ -10,18 +10,20 @@
   "totalBook": 32,
   "availableBook": 31,
   "borrowBook": 1,
-  "categoryId": {
-    "$oid": "6810399c796d53f59df0345e"
-  },
+  "categoryId": [
+    {
+      "$oid": "6810399c796d53f59df0345e"
+    }
+  ],
   "user": "tungtungtungsahur",
   "userupdate": null,
   "createdAt": {
     "$date": "2025-04-29T02:33:53.902Z"
   },
   "updatedAt": {
-    "$date": "2025-04-29T02:42:41.575Z"
+    "$date": "2025-04-29T07:22:02.301Z"
   },
-  "__v": 0
+  "__v": 1
 },
 {
   "_id": {
@@ -135,18 +137,20 @@
   "totalBook": 32,
   "availableBook": 32,
   "borrowBook": 0,
-  "categoryId": {
-    "$oid": "68103ad7796d53f59df03478"
-  },
+  "categoryId": [
+    {
+      "$oid": "68103ad7796d53f59df03478"
+    }
+  ],
   "user": "tungtungtungsahur",
   "userupdate": null,
   "createdAt": {
     "$date": "2025-04-29T03:22:33.643Z"
   },
   "updatedAt": {
-    "$date": "2025-04-29T03:22:33.643Z"
+    "$date": "2025-04-29T08:13:07.935Z"
   },
-  "__v": 0
+  "__v": 1
 },
 {
   "_id": {
@@ -174,7 +178,7 @@
     "$date": "2025-04-29T03:23:53.483Z"
   },
   "updatedAt": {
-    "$date": "2025-04-29T03:23:53.483Z"
+    "$date": "2025-05-05T06:29:52.071Z"
   },
   "__v": 0
 },
@@ -188,8 +192,8 @@
   "description": "Truyện Anime",
   "poster": "https://i.pinimg.com/236x/60/0f/8e/600f8edce7e9c1cd2e8137365c128513.jpg",
   "totalBook": 32,
-  "availableBook": 32,
-  "borrowBook": 0,
+  "availableBook": 30,
+  "borrowBook": 2,
   "categoryId": [
     {
       "$oid": "68103ad7796d53f59df03478"
@@ -204,7 +208,67 @@
     "$date": "2025-04-29T03:26:25.024Z"
   },
   "updatedAt": {
-    "$date": "2025-04-29T03:26:25.024Z"
+    "$date": "2025-04-29T03:58:07.922Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6818603f3ff8d270efd906ef"
+  },
+  "namebook": "trelalela l33daa",
+  "author": "Tùng",
+  "year": 2019,
+  "description": "Truyện Anime",
+  "poster": "https://i.pinimg.com/236x/60/0f/8e/600f8edce7e9c1cd2e8137365c128513.jpg",
+  "totalBook": 32,
+  "availableBook": 25,
+  "borrowBook": 7,
+  "categoryId": [
+    {
+      "$oid": "68103ad7796d53f59df03478"
+    },
+    {
+      "$oid": "681039b3796d53f59df03463"
+    }
+  ],
+  "user": "tung111",
+  "userupdate": null,
+  "createdAt": {
+    "$date": "2025-05-05T06:52:47.773Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-06T08:26:11.525Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681b1876afca72dd5744c597"
+  },
+  "namebook": "trelalerhrhla l3300daa",
+  "author": "ds",
+  "year": 2000,
+  "description": "Truyện Anime",
+  "poster": "https://i.pinimg.com/236x/60/0f/8e/600f8edce7e9c1cd2e8137365c128513.jpg",
+  "totalBook": 32,
+  "availableBook": 31,
+  "borrowBook": 1,
+  "categoryId": [
+    {
+      "$oid": "68103ad7796d53f59df03478"
+    },
+    {
+      "$oid": "681039b3796d53f59df03463"
+    }
+  ],
+  "user": "tung222",
+  "userupdate": "tungtung",
+  "createdAt": {
+    "$date": "2025-05-07T08:23:18.388Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:39:59.029Z"
   },
   "__v": 0
 }]

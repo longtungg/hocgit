@@ -39,4 +39,46 @@
     "$date": "2025-04-29T02:36:11.137Z"
   },
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681afb9835ccfcac3ba514ab"
+  },
+  "category": "Kinh de",
+  "description": "Phim kinhe dị",
+  "createdAt": {
+    "$date": "2025-05-07T06:20:08.250Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-07T06:20:08.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681afe913b24417d403291e1"
+  },
+  "category": "Kin]h de",
+  "description": "Phim kinheoo dị",
+  "createdAt": {
+    "$date": "2025-05-07T06:32:49.211Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-07T06:32:49.211Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681afeb05f0027fe8b26c3dc"
+  },
+  "category": "Kine]h de",
+  "description": "Phim kinheoo dị",
+  "createdAt": {
+    "$date": "2025-05-07T06:33:20.019Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-07T06:33:20.019Z"
+  },
+  "__v": 0
 }]

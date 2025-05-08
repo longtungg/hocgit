@@ -5,6 +5,8 @@ const app = express();
 const cors = require('cors');
 require('dotenv').config();
 const { UserRouter, BookRouter, BorrowRouter, StatisticRouter, CategoryRouter } = require('./route/index.js');
+const swaggerUi = require('swagger-ui-express');
+const swaggerSpec = require('./config/swaggerconfig.js');
 
 
 const apiRoute = "/libary";
@@ -24,6 +26,8 @@ app.use(bodyParser.urlencoded({ extended: true, limit : "50mb" }));
 
 
 app.use(cors());
+app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec));
+
 app.use(apiRoute, UserRouter);
 app.use(apiRoute, BookRouter);
 app.use(apiRoute, BorrowRouter);

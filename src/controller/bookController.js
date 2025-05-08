@@ -83,7 +83,7 @@ class BookController {
     searchBook = async (req, res) => {
         const {query} = req.params;
 
-        const result = await bookServiceInstance.updateBookService({ query });
+        const result = await bookServiceInstance.searchBookService({ query });
         if(result.code !== 200) {
             return res.status(result.code).json({
                 code : result.code,
@@ -93,6 +93,7 @@ class BookController {
             return res.status(200).json({
                 code : 200,
                 message : result.message,
+                data : result.data,
             })
     }
 }

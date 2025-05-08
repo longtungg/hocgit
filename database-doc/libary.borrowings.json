@@ -39,12 +39,185 @@
   "returnDate": {
     "$date": "2025-04-29T02:42:44.586Z"
   },
-  "status": "Chờ xác nhận",
+  "status": "Đã trả",
   "createdAt": {
     "$date": "2025-04-29T02:42:41.585Z"
   },
   "updatedAt": {
-    "$date": "2025-04-29T02:42:44.588Z"
+    "$date": "2025-04-29T06:56:01.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104e3f9bea55fbae9bfeed"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681046e18d67dbcd7b1f24c7"
+  },
+  "borrowDate": {
+    "$date": "2025-04-29T03:57:51.421Z"
+  },
+  "returnDate": {
+    "$date": "2025-04-29T03:58:04.620Z"
+  },
+  "status": "Chờ xác nhận",
+  "createdAt": {
+    "$date": "2025-04-29T03:57:51.422Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:58:04.621Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104e4f9bea55fbae9bfefa"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681046e18d67dbcd7b1f24c7"
+  },
+  "borrowDate": {
+    "$date": "2025-04-29T03:58:07.923Z"
+  },
+  "returnDate": null,
+  "status": "Chưa trả",
+  "createdAt": {
+    "$date": "2025-04-29T03:58:07.924Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:58:07.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68107e1a5020391f13c6e9b3"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "68103a91796d53f59df0346c"
+  },
+  "borrowDate": {
+    "$date": "2025-04-29T07:22:02.309Z"
+  },
+  "returnDate": {
+    "$date": "2025-04-29T07:22:20.277Z"
+  },
+  "status": "Chờ xác nhận",
+  "createdAt": {
+    "$date": "2025-04-29T07:22:02.316Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:22:20.278Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681089f75020391f13c6e9c0"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681045f93a08c61745ccc1e4"
+  },
+  "borrowDate": {
+    "$date": "2025-04-29T08:12:39.030Z"
+  },
+  "returnDate": {
+    "$date": "2025-04-29T08:12:44.988Z"
+  },
+  "status": "Đã trả",
+  "createdAt": {
+    "$date": "2025-04-29T08:12:39.032Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T08:13:07.937Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681859e9993c766ddeeb6f1d"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681046493558c9e5e0437150"
+  },
+  "borrowDate": {
+    "$date": "2025-05-05T06:25:45.094Z"
+  },
+  "returnDate": {
+    "$date": "2025-05-05T06:25:55.370Z"
+  },
+  "status": "Đã trả",
+  "createdAt": {
+    "$date": "2025-05-05T06:25:45.095Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-05T06:29:52.079Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6819c7a3dad95a1cbb84d8b9"
+  },
+  "userId": {
+    "$oid": "68198a3c0a30893e57a81d33"
+  },
+  "bookId": {
+    "$oid": "6818603f3ff8d270efd906ef"
+  },
+  "borrowDate": {
+    "$date": "2025-05-06T08:26:11.532Z"
+  },
+  "returnDate": {
+    "$date": "2025-05-06T08:26:29.090Z"
+  },
+  "status": "Chờ xác nhận",
+  "createdAt": {
+    "$date": "2025-05-06T08:26:11.534Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-06T08:26:29.091Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c278f0640e80f738658ed"
+  },
+  "userId": {
+    "$oid": "681c1b281d628eac4182b491"
+  },
+  "bookId": {
+    "$oid": "681b1876afca72dd5744c597"
+  },
+  "borrowDate": {
+    "$date": "2025-05-08T03:39:59.033Z"
+  },
+  "returnDate": {
+    "$date": "2025-05-08T03:40:13.536Z"
+  },
+  "status": "Chờ xác nhận",
+  "createdAt": {
+    "$date": "2025-05-08T03:39:59.033Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:40:13.536Z"
   },
   "__v": 0
 }]

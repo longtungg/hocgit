@@ -11,10 +11,22 @@ const options = {
     servers: [
       { url: 'http://localhost:3000/libary' },
     ],
+    components: {
+      securitySchemes: {
+        BearerAuth: {
+          type: 'http',
+          scheme: 'bearer',
+          bearerFormat: 'JWT',
+        },
+      },
+    },
+    security: [
+      {
+        BearerAuth: [],
+      },
+    ],
   },
-  apis: ['./route/*.js'], // chỉ đến folder chứa các route
+  apis: ['./src/route/*.js'],
 };
 
-const swaggerSpec = swaggerJsdoc(options);
-
-module.exports = swaggerSpec;
+module.exports = require('swagger-jsdoc')(options);

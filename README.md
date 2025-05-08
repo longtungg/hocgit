@@ -14,3 +14,5 @@ npm install : Cài đặt các package phụ thuộc (nếu cần)
 
 nodemon ./src/server.js 
 
+tk người dùng tungtung|tung
+tk admin tung|tung

@@ -473,4 +473,480 @@
     "$date": "2025-04-29T03:26:25.035Z"
   },
   "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104e3f9bea55fbae9bfeef"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681046e18d67dbcd7b1f24c7"
+  },
+  "action": "Mượn sách",
+  "time": {
+    "$date": "2025-04-29T03:57:51.426Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-29T03:57:51.427Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:57:51.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104e4c9bea55fbae9bfef5"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681046e18d67dbcd7b1f24c7"
+  },
+  "action": "Trả sách",
+  "time": {
+    "$date": "2025-04-29T03:58:04.629Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-29T03:58:04.629Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:58:04.629Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68104e4f9bea55fbae9bfefc"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681046e18d67dbcd7b1f24c7"
+  },
+  "action": "Mượn sách",
+  "time": {
+    "$date": "2025-04-29T03:58:07.932Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-29T03:58:07.933Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T03:58:07.933Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68107e1a5020391f13c6e9b5"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "68103a91796d53f59df0346c"
+  },
+  "action": "Mượn sách",
+  "time": {
+    "$date": "2025-04-29T07:22:02.320Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-29T07:22:02.322Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:22:02.322Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68107e2c5020391f13c6e9b9"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "68103a91796d53f59df0346c"
+  },
+  "action": "Trả sách",
+  "time": {
+    "$date": "2025-04-29T07:22:20.286Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-29T07:22:20.288Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T07:22:20.288Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681089f75020391f13c6e9c2"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681045f93a08c61745ccc1e4"
+  },
+  "action": "Mượn sách",
+  "time": {
+    "$date": "2025-04-29T08:12:39.035Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-29T08:12:39.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T08:12:39.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681089fc5020391f13c6e9c6"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681045f93a08c61745ccc1e4"
+  },
+  "action": "Trả sách",
+  "time": {
+    "$date": "2025-04-29T08:12:44.991Z"
+  },
+  "createdAt": {
+    "$date": "2025-04-29T08:12:44.992Z"
+  },
+  "updatedAt": {
+    "$date": "2025-04-29T08:12:44.992Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6818596e993c766ddeeb6f12"
+  },
+  "userId": {
+    "$oid": "6818410fe41c3fe120c2ea34"
+  },
+  "bookId": {
+    "$oid": "6818596e993c766ddeeb6f10"
+  },
+  "action": "Tạo sách",
+  "time": {
+    "$date": "2025-05-05T06:23:42.552Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-05T06:23:42.552Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-05T06:23:42.552Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681859b1993c766ddeeb6f16"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "6818596e993c766ddeeb6f10"
+  },
+  "action": "Xóa sách",
+  "time": {
+    "$date": "2025-05-05T06:24:49.089Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-05T06:24:49.089Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-05T06:24:49.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681859e9993c766ddeeb6f1f"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681046493558c9e5e0437150"
+  },
+  "action": "Mượn sách",
+  "time": {
+    "$date": "2025-05-05T06:25:45.101Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-05T06:25:45.102Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-05T06:25:45.102Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681859f3993c766ddeeb6f23"
+  },
+  "userId": {
+    "$oid": "68103949ad05de07ed33ea9a"
+  },
+  "bookId": {
+    "$oid": "681046493558c9e5e0437150"
+  },
+  "action": "Trả sách",
+  "time": {
+    "$date": "2025-05-05T06:25:55.381Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-05T06:25:55.381Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-05T06:25:55.381Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6818603f3ff8d270efd906f1"
+  },
+  "userId": {
+    "$oid": "68185cbdf6ef3178d0b5d677"
+  },
+  "bookId": {
+    "$oid": "6818603f3ff8d270efd906ef"
+  },
+  "action": "Tạo sách",
+  "time": {
+    "$date": "2025-05-05T06:52:47.786Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-05T06:52:47.786Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-05T06:52:47.786Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681afeb05f0027fe8b26c3de"
+  },
+  "userId": {
+    "$oid": "680c4e099359f579c6cebf8f"
+  },
+  "bookId": null,
+  "action": "Tạo thể loại",
+  "time": {
+    "$date": "2025-05-07T06:33:15.043Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-07T06:33:20.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-07T06:33:20.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681b1876afca72dd5744c599"
+  },
+  "userId": {
+    "$oid": "68198a3c0a30893e57a81d33"
+  },
+  "bookId": {
+    "$oid": "681b1876afca72dd5744c597"
+  },
+  "action": "Tạo sách",
+  "time": {
+    "$date": "2025-05-07T08:23:18.400Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-07T08:23:18.401Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-07T08:23:18.401Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681b1b3f9ca73f455cd6bda2"
+  },
+  "userId": {
+    "$oid": "68198a3c0a30893e57a81d33"
+  },
+  "bookId": {
+    "$oid": "681b1b3f9ca73f455cd6bda0"
+  },
+  "action": "Tạo sách",
+  "time": {
+    "$date": "2025-05-07T08:35:11.209Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-07T08:35:11.209Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-07T08:35:11.209Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c23efdfbcdc50cf5d523b"
+  },
+  "userId": {
+    "$oid": "681c1b281d628eac4182b491"
+  },
+  "bookId": {
+    "$oid": "681b1b3f9ca73f455cd6bda0"
+  },
+  "action": "Xóa sách",
+  "time": {
+    "$date": "2025-05-08T03:24:31.574Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T03:24:31.576Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:24:31.576Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c25ef52940153e37712a7"
+  },
+  "userId": {
+    "$oid": "681c1b281d628eac4182b491"
+  },
+  "bookId": {
+    "$oid": "681b1876afca72dd5744c597"
+  },
+  "action": "Sửa sách",
+  "time": {
+    "$date": "2025-05-08T03:33:03.579Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T03:33:03.585Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:33:03.585Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c278f0640e80f738658ef"
+  },
+  "userId": {
+    "$oid": "681c1b281d628eac4182b491"
+  },
+  "bookId": {
+    "$oid": "681b1876afca72dd5744c597"
+  },
+  "action": "Mượn sách",
+  "time": {
+    "$date": "2025-05-08T03:39:59.036Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T03:39:59.037Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:39:59.037Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c279d0640e80f738658f3"
+  },
+  "userId": {
+    "$oid": "681c1b281d628eac4182b491"
+  },
+  "bookId": {
+    "$oid": "681b1876afca72dd5744c597"
+  },
+  "action": "Trả sách",
+  "time": {
+    "$date": "2025-05-08T03:40:13.540Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T03:40:13.540Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:40:13.540Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c2bdb137500d170c95284"
+  },
+  "userId": {
+    "$oid": "681c1b281d628eac4182b491"
+  },
+  "bookId": null,
+  "action": "Thêm thể loại",
+  "time": {
+    "$date": "2025-05-08T03:58:19.806Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T03:58:19.807Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:58:19.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c2bf3137500d170c95289"
+  },
+  "userId": {
+    "$oid": "681c1b281d628eac4182b491"
+  },
+  "bookId": null,
+  "action": "Sửa thể loại",
+  "time": {
+    "$date": "2025-05-08T03:58:43.154Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T03:58:43.155Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:58:43.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "681c2c00137500d170c9528e"
+  },
+  "userId": {
+    "$oid": "681c1b281d628eac4182b491"
+  },
+  "bookId": null,
+  "action": "Xóa thể loại",
+  "time": {
+    "$date": "2025-05-08T03:58:56.108Z"
+  },
+  "createdAt": {
+    "$date": "2025-05-08T03:58:56.108Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-08T03:58:56.108Z"
+  },
+  "__v": 0
 }]
